@@ -1,0 +1,5 @@
+#!/bin/sh
+
+# You may find this shell script helpful.
+
+python tester.py --model unigram.Unigram --data  data --train train-data.txt --test  test-data.txt --showguesses False --jumble True   --generate True  --check True
